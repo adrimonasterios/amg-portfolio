@@ -1,0 +1,159 @@
+html{
+  height:100%;
+  width: 100%;
+  position:relative;
+}
+
+body *{
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body{
+  min-height: 100%;
+  min-width: 100%;
+  margin:0
+}
+
+#root{
+  height: 100%;
+}
+
+.main-container{
+  top:0;
+  left:0;
+  height: 100%;
+  width:100%;
+  background-color: blue;
+  background-size: cover;
+}
+
+.container{
+  top:0;
+  left:0;
+  height:100%;
+  z-index: -1;
+}
+
+
+/* .item{
+  top:0;
+  left:0;
+  height:100%;
+} */
+
+img{
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  -webkit-transition: opacity 1.5s;
+  transition: opacity 1.5s;
+}
+
+.profile-img{
+  opacity: 0;
+}
+
+.projects-img{
+  opacity: 0;
+}
+
+.contact-img{
+  opacity: 0;
+}
+
+/* .div-container{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 5
+} */
+
+.empty{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  z-index: 1;
+}
+
+.box1{
+  left:0;
+  top:0;
+}
+
+.box2{
+  right:0;
+  top:0;
+}
+
+.box2:hover ~ .profile-img{
+  opacity: 1;
+}
+
+.box3{
+  left:0;
+  bottom:0;
+}
+
+.box3:hover ~ .projects-img{
+  opacity: 1;
+}
+
+.box4{
+  right:0;
+  bottom:0;
+}
+
+.box4:hover ~ .contact-img{
+  opacity: 1;
+}
+
+.button{
+  position: absolute;
+  background: none;
+  border: 0;
+  color: white;
+  z-index: 4
+}
+
+.button{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.74);
+  text-decoration: none;
+  border: solid 8px red;
+  padding: 1em;
+  color: rgb(56, 56, 56);
+  z-index: 2
+}
+
+[name="Home"]{
+  left:0;
+  top:0;
+  margin: 3em;
+}
+
+.profile-btn{
+  right:0;
+  top:0;
+  margin: 3em;
+}
+
+.projects-btn{
+  left:0;
+  bottom:0;
+  margin: 3em;
+}
+
+.contact-btn{
+  right:0;
+  bottom:0;
+  margin: 3em;
+}
+
+.paragraph{
+  color:white
+}
