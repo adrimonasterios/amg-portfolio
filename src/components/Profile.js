@@ -21,9 +21,9 @@ class Profile extends React.Component{
       <div className="profile_site">
         <div className="profile_photo">
           <img src={me} alt="me"/>
+          <a href="/" className="home-btn"><i className="fas fa-home"></i></a>
         </div>
         <div className="profile_information">
-          <a href="/" className="home-btn"><i className="fas fa-home"></i></a>
           <div>
           <h1>Profile</h1>
             <ul className="profile-nav">

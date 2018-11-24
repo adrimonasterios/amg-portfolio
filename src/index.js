@@ -8,8 +8,8 @@ import Contact from './components/Contact.js'
 import profilepic from './images/profile.jpg'
 import projectspic from './images/computer'
 import contactpic from './images/contact.jpg'
-import homepic from './images/background.jpg'
-import logo from './images/Logo.svg'
+import homepic from './images/background.svg'
+
 
 
 const root = ()=>{
