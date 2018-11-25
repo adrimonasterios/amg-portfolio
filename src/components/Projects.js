@@ -14,9 +14,9 @@ class Projects extends React.Component{
 
   linkToImg(){
     if(this.state.currentPicture == project1){
-      return "https://perfectweek.herokuapp.com/"
+      return "https://froogalapp.herokuapp.com/"
     }else if(this.state.currentPicture == project2){
-      return "https://music-trivia-amg.herokuapp.com/"
+      return "https://perfectweek.herokuapp.com/"
     }else if(this.state.currentPicture == project3){
       return "https://todo-list-amg22.herokuapp.com/"
     }
