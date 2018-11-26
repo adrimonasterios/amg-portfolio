@@ -32,9 +32,12 @@ class Projects extends React.Component{
             <a href={this.linkToImg()} target="_blank" className="link-img"><img src={this.state.currentPicture} alt="big-picture"/></a>
           </div>
           <div className="project-thumbnails">
+            <a href="https://froogalapp.herokuapp.com/" target="_blank" className="project-links"><img src={project1} alt="project1"/></a>
+            <a href="https://perfectweek.herokuapp.com/" target="_blank" className="project-links"><img src={project2} alt="project2"/></a>
+            <a href="https://todo-list-amg22.herokuapp.com/" target="_blank" className="project-links"><img src={project3} alt="project3"/></a>
             <img onClick={()=>this.setState({currentPicture: project1})} src={project1} alt="project1"/>
-            <img onClick={()=>this.setState({currentPicture: project2})} src={project2} alt="project1"/>
-            <img onClick={()=>this.setState({currentPicture: project3})} src={project3} alt="project1"/>
+            <img onClick={()=>this.setState({currentPicture: project2})} src={project2} alt="project2"/>
+            <img onClick={()=>this.setState({currentPicture: project3})} src={project3} alt="project3"/>
           </div>
         </div>
       </div>
