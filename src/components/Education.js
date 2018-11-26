@@ -19,7 +19,7 @@ class Education extends React.Component{
           <p>Universitat zu Koln (2011)</p><p className="comp-description">Exchange Program</p>
         </div>
         <div className="comp-item">
-          <p>Universidad Torcuato Di Tella (2007-2012)</p><p className="comp-description">Lic. Economia Empresarial</p>
+          <p>Universidad Torcuato Di Tella - Buenos Aires (2007-2012)</p><p className="comp-description">Business Economics</p>
         </div>
         <div className="comp-item">
           <p>Colegio Aleman Mariscal Braun (1994-2006)</p>

@@ -8,7 +8,7 @@ import Contact from './components/Contact.js'
 import profilepic from './images/profile.jpg'
 import projectspic from './images/computer'
 import contactpic from './images/contact.jpg'
-import homepic from './images/background.svg'
+import homepic from './images/background.png'
 
 
 
