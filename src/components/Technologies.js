@@ -14,7 +14,7 @@ class Technologies extends React.Component{
   render(){
     return(
       <div className="display_info">
-        <h2>Technologies</h2>
+        <h2 className="techh2">Technologies</h2>
         <div className="tech-item">
           <p>HTML</p>
           <img className="tech_img" src={html_logo} alt="html"/>
