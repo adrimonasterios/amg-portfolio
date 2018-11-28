@@ -6,6 +6,12 @@ class WorkExperience extends React.Component{
       <div className="display_info">
         <h2>Work Experience</h2>
         <div className="comp-item">
+          <p>Froogal - mobile app (2018)</p><p className="comp-description">Wyncode</p>
+        </div>
+        <div className="comp-item">
+          <p>Perfect Week - web app (2018)</p><p className="comp-description">Wyncode</p>
+        </div>
+        <div className="comp-item">
           <p>Management Control Specialist (2014-2018)</p><p className="comp-description">Sinchi Wayra S.A. - Subsidiary of Glencore in La Paz, Bolivia</p>
         </div>
         <div className="comp-item">
