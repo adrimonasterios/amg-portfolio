@@ -1,6 +1,4 @@
 import React from 'react';
-import me from '../images/me.jpg'
-
 
 class Profile extends React.Component{
   render(){

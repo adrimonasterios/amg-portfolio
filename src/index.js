@@ -1,7 +1,7 @@
 import './css/style.css';
 import React from 'react';
 import {render} from 'react-dom';
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Projects from './components/Projects.js'
 import Profile from './components/Profile.js'
 import Contact from './components/Contact.js'

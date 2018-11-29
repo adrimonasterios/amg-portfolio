@@ -1,6 +1,5 @@
 import React from 'react';
 import me from '../images/me.jpg'
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import Education from './Education.js'
 import WorkExperience from './WorkExperience.js'
 import PersonalInformation from './PersonalInformation.js'
