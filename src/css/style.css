@@ -379,6 +379,7 @@ iframe{
   width: 100%;
   height: 20%;
   justify-content: space-between;
+  overflow: scroll;
 }
 
 .project-thumbnails img{
@@ -511,7 +512,7 @@ iframe{
   }
 
   .fas,.fab{
-    font-size: 7vh;
+    font-size: 6.5vh;
     color: rgb(21, 148, 195)
   }
 
@@ -619,7 +620,8 @@ iframe{
 
   .project-thumbnails{
     flex-direction: column;
-    height: 27%;
+    height: 90%;
+
   }
 
   .project-thumbnails>img{
