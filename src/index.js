@@ -9,8 +9,6 @@ import profilepic from './images/profile.jpg'
 import projectspic from './images/computer'
 import contactpic from './images/contact.jpg'
 import homepic from './images/background.png'
-import homepic2 from './images/background2.png'
-
 
 
 const root = ()=>{
@@ -46,7 +44,6 @@ class App extends React.Component{
             <a href="/Contact" className="button contact-btn"><i className="fas fa-project-diagram"></i><p className="tag"><span className="tag_text">Contact</span></p></a>
 
             <img className="navbar" src={homepic} alt="home"/>
-            <img className="navbar" src={homepic2} alt="home2"/>
             <img className="navbar profile-img" src={profilepic} alt='profile'/>
             <img className="navbar projects-img" src={projectspic} alt='projects'/>
             <img className="navbar contact-img" src={contactpic} alt='contact'/>
